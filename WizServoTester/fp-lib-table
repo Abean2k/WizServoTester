@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Espressif") (type "KiCad") (uri "C:/Users/AbhinavP/Downloads/espressif-kicad-addon/footprints/Espressif.pretty") (options "") (descr ""))
+)
