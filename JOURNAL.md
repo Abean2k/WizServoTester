@@ -26,3 +26,17 @@ After that I started making my schematic and was able to finish it just after 12
 
 
 **Total time spent: 6h**
+
+# August 22: <PCB Routing Finished>
+
+Today I worked on assigning all the footprints to their respective schematics. 
+
+While doing so I also had to make a footprint for the AliExpress buck converter thing, here was the picture of that:
+<img width="557" height="368" alt="image" src="https://github.com/user-attachments/assets/62af4da2-c1cc-4a3e-96ac-1fa2028c8669" />
+
+After arraigning everything inside of a 100mm x 60mm pcb I routed everything. Making sure to use thick traces for the power traces. I also added the team logo at the front in the little free space.
+
+**Here is my PCB:**
+<img width="955" height="604" alt="image" src="https://github.com/user-attachments/assets/ceb6977a-0cc7-4ab7-8cfa-e066113be61a" />
+
+
