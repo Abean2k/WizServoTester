@@ -3116,6 +3116,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -4493,6 +4592,18 @@
 		(uuid "0f890683-215b-4326-b710-068aafb24096")
 	)
 	(rectangle
+		(start 101.6 107.95)
+		(end 177.8 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "258654d3-b4f8-40a2-90b0-ff5c37b3e11e")
+	)
+	(rectangle
 		(start 12.7 82.55)
 		(end 101.6 146.05)
 		(stroke
@@ -4590,6 +4701,16 @@
 		)
 		(uuid "f3c966e9-9f02-40bc-a3b1-970d7041a5b2")
 	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 110.998 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f422e313-8ed1-4fa3-ba2a-0b304d5f6f87")
+	)
 	(junction
 		(at 212.09 124.46)
 		(diameter 0)
@@ -4621,22 +4742,16 @@
 		(uuid "187df22e-ea78-46ba-9d1f-e3ebe54269ed")
 	)
 	(junction
-		(at 81.28 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "295d60a7-aede-4758-8ec8-3e84144df147")
-	)
-	(junction
 		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3091015e-a152-4122-bd67-6402abc787d3")
 	)
 	(junction
-		(at 81.28 115.57)
+		(at 76.2 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44ffdb18-9cc4-40c5-95a8-36aace41d913")
+		(uuid "3d61e20e-e77a-4150-b00d-386e8a1b9518")
 	)
 	(junction
 		(at 76.2 104.14)
@@ -4681,16 +4796,16 @@
 		(uuid "800817b2-e9f9-4fa7-8316-fbe9263078f7")
 	)
 	(junction
-		(at 76.2 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "835db5a2-d555-4f58-92bb-15940628f987")
-	)
-	(junction
 		(at 55.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872f9310-460c-4ffb-bb6a-915c8c9daa61")
+	)
+	(junction
+		(at 76.2 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d61c28b-d54a-4d23-b755-e925d2c4c0c8")
 	)
 	(junction
 		(at 55.88 43.18)
@@ -4723,16 +4838,16 @@
 		(uuid "c3059313-e076-45f2-8c4f-2e324049a4e0")
 	)
 	(junction
+		(at 27.94 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb251a44-3b19-4e6c-8b7e-264262aabb8e")
+	)
+	(junction
 		(at 259.08 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0469adf-71b7-48e5-ba5c-513f8119d695")
-	)
-	(junction
-		(at 76.2 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8396f0e-3d2b-4eff-8e27-fd892b87417b")
 	)
 	(junction
 		(at 64.77 34.29)
@@ -4838,16 +4953,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 81.28 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae0471b-813f-4b66-bb0b-8d1ca4102ea7")
-	)
-	(wire
-		(pts
 			(xy 71.12 64.77) (xy 71.12 71.12)
 		)
 		(stroke
@@ -4865,6 +4970,16 @@
 			(type default)
 		)
 		(uuid "1e31a915-f92f-4955-9ace-dbdf2ba046e7")
+	)
+	(wire
+		(pts
+			(xy 27.94 97.79) (xy 30.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6f625d-5cd3-40d2-b560-9ab732437eed")
 	)
 	(wire
 		(pts
@@ -4975,16 +5090,6 @@
 			(type default)
 		)
 		(uuid "2ff06c63-94d7-49d1-bdaf-f5f82565a220")
-	)
-	(wire
-		(pts
-			(xy 81.28 115.57) (xy 76.2 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d39c22-067f-4215-98b1-89fe6318654c")
 	)
 	(wire
 		(pts
@@ -5318,13 +5423,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 115.57) (xy 81.28 115.57)
+			(xy 76.2 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7046dd6c-57fa-4f6a-8d40-a93cd4623232")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c0975c-425e-47d5-b590-dd9b328b4d77")
 	)
 	(wire
 		(pts
@@ -5415,16 +5530,6 @@
 			(type default)
 		)
 		(uuid "8477bdda-8b6c-4add-9add-5f3f32c2cb7a")
-	)
-	(wire
-		(pts
-			(xy 81.28 120.65) (xy 88.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c174b1-84af-4eaf-8e52-7a7cca78e231")
 	)
 	(wire
 		(pts
@@ -5618,7 +5723,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 30.48 97.79)
+			(xy 25.4 97.79) (xy 27.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5896,26 +6001,6 @@
 		)
 		(uuid "ff91a955-2791-4b1b-8868-ab678f45e7fb")
 	)
-	(label "D-"
-		(at 66.04 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d793da6-58d1-4b97-853b-a2060a9f889b")
-	)
-	(label "D+"
-		(at 66.04 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "679884e9-dd08-432a-a11d-aa4e0163af84")
-	)
 	(global_label "Encoder 4A"
 		(shape input)
 		(at 256.54 87.63 0)
@@ -6062,7 +6147,7 @@
 	)
 	(global_label "BAT_IN"
 		(shape input)
-		(at 31.75 133.35 180)
+		(at 39.37 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6072,7 +6157,7 @@
 		)
 		(uuid "1bc88ac7-9833-4525-8ade-4e8157d892bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5357 133.35 0)
+			(at 30.1557 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +6555,7 @@
 	)
 	(global_label "BAT_IN"
 		(shape input)
-		(at 82.55 133.35 180)
+		(at 71.12 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6480,7 +6565,7 @@
 		)
 		(uuid "6a94e5d9-7c01-4010-9475-f474cf85c4c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3357 133.35 0)
+			(at 61.9057 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6603,7 @@
 	)
 	(global_label "BAT5v"
 		(shape input)
-		(at 88.9 115.57 0)
+		(at 81.28 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6528,7 +6613,7 @@
 		)
 		(uuid "73a13d65-f0c0-405a-8ff7-2e7fa9c3fffc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3885 115.57 0)
+			(at 89.7685 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,30 +6694,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BAT_IN"
-		(shape input)
-		(at 57.15 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8acf4296-1d6b-413c-8f40-8c23b65ef27a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.9357 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7161,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 60.96 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,7 +7232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.96 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -7251,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
 			(at 39.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7459,7 +7520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 40.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 135.89 0)
+		(at 71.12 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7754,7 +7815,7 @@
 		(fields_autoplaced yes)
 		(uuid "14ff8bf6-d7a8-49dd-8888-a5e186e94f3a")
 		(property "Reference" "#PWR021"
-			(at 82.55 142.24 0)
+			(at 71.12 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 140.97 0)
+			(at 71.12 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7775,7 +7836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 135.89 0)
+			(at 71.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7786,7 +7847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 135.89 0)
+			(at 71.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,7 +7858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 135.89 0)
+			(at 71.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +8155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8144,7 +8205,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 36.83 133.35 0)
+		(at 44.45 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8155,7 +8216,7 @@
 		(fields_autoplaced yes)
 		(uuid "1972076e-63d5-40e3-96a0-4d5ccfb3bba4")
 		(property "Reference" "J6"
-			(at 39.37 133.3499 0)
+			(at 46.99 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8165,8 +8226,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT_XT60"
-			(at 39.37 135.8899 0)
+		(property "Value" "BAT_XT30"
+			(at 46.99 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8176,8 +8237,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 36.83 133.35 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 44.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +8249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 133.35 0)
+			(at 44.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8199,7 +8260,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 133.35 0)
+			(at 44.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -8337,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 135.89 69.596 0)
 			(hide yes)
 			(show_name no)
@@ -8429,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8479,7 +8540,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 87.63 133.35 0)
+		(at 76.2 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8490,7 +8551,7 @@
 		(fields_autoplaced yes)
 		(uuid "262cadac-5616-4c0a-a6da-72ff24a770a8")
 		(property "Reference" "J8"
-			(at 90.17 133.3499 0)
+			(at 78.74 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8501,7 +8562,7 @@
 			)
 		)
 		(property "Value" "BAT_Pads"
-			(at 90.17 135.8899 0)
+			(at 78.74 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8511,8 +8572,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 87.63 133.35 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+			(at 76.2 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8523,7 +8584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 133.35 0)
+			(at 76.2 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +8595,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 133.35 0)
+			(at 76.2 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,88 +8693,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 62.23 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af6bc60-8151-4a46-85f3-8096d86b3a86")
-		(property "Reference" "J7"
-			(at 64.77 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT_Powerpole"
-			(at 64.77 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 62.23 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "018c9750-e8f8-4b07-b30d-744fc31bfe6c")
-		)
-		(pin "1"
-			(uuid "631f7ae3-8ef1-4f8a-acf0-671c8808ef0a")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9211,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 60.96 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.96 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -9622,7 +9601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9780,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9938,7 +9917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aliexpress:mini650"
 			(at 58.42 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10159,7 +10138,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 120.65 0)
+		(at 81.28 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10170,7 +10149,7 @@
 		(fields_autoplaced yes)
 		(uuid "695df730-2b4c-4df0-ae65-fa67c522f2f4")
 		(property "Reference" "#PWR041"
-			(at 88.9 127 0)
+			(at 81.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +10160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 125.73 0)
+			(at 81.28 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10191,7 +10170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 120.65 0)
+			(at 81.28 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +10181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 120.65 0)
+			(at 81.28 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +10192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 120.65 0)
+			(at 81.28 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,7 +10642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.962 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -10743,7 +10722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 135.89 26.416 0)
 			(hide yes)
 			(show_name no)
@@ -10834,7 +10813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 30.48 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10877,87 +10856,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 81.28 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80f21cdb-136f-47a9-9816-2510b4020dee")
-		(property "Reference" "C8"
-			(at 83.82 117.094 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u 16v"
-			(at 83.82 118.872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6dad00f9-78ab-40f8-b477-c7eab97e0f07")
-		)
-		(pin "1"
-			(uuid "f8da46b3-ab5e-4b37-949d-8dca72b3b0b6")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11073,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 195.58 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11153,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 135.89 92.456 0)
 			(hide yes)
 			(show_name no)
@@ -11208,6 +11106,163 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 27.94 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ad4db7f-d6ab-4adb-9e16-4d0874ccd9dd")
+		(property "Reference" "C8"
+			(at 23.114 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u 16v"
+			(at 15.494 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 27.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 27.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "453721e8-b0f9-410b-abd3-d0acaa13f7f6")
+		)
+		(pin "1"
+			(uuid "383cd426-4369-4662-98a3-c0122cf742d1")
+		)
+		(instances
+			(project "WizServoTester"
+				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 120.65 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c983716-6c89-4e96-96c3-78309a5484b3")
+		(property "Reference" "H1"
+			(at 123.19 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 123.19 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WizServoTester"
+				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11324,7 +11379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -11405,7 +11460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11533,7 +11588,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 135.89 0)
+		(at 39.37 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11541,10 +11596,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92763c21-e26b-42de-8edf-63c62effd58c")
 		(property "Reference" "#PWR015"
-			(at 31.75 142.24 0)
+			(at 39.37 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11555,7 +11609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 140.97 0)
+			(at 35.56 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11565,7 +11619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 135.89 0)
+			(at 39.37 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11576,7 +11630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 135.89 0)
+			(at 39.37 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +11641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 135.89 0)
+			(at 39.37 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,7 +11696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11956,7 +12010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "'${KICAD_3RD_PARTY}/EasyEDA.pretty:SW-TH_XKB_SS-12M11XX"
 			(at 35.56 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12123,7 +12177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 261.62 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -12283,7 +12337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12722,84 +12776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4075f5a-f7c8-4f86-a531-bde09d34c6b5")
-		(property "Reference" "#PWR020"
-			(at 57.15 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa01cd24-5224-4c76-9bdf-0ce94df37be0")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 63.5 165.1 0)
 		(unit 1)
@@ -12987,7 +12963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 135.89 48.006 0)
 			(hide yes)
 			(show_name no)
@@ -13048,6 +13024,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e4efc8-c19f-4076-9853-f33fc5947fa8")
+		(property "Reference" "#PWR043"
+			(at 27.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "571433c2-bc27-4c2f-a2bc-11620e2f6066")
+		)
+		(instances
+			(project "WizServoTester"
+				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 212.09 128.27 0)
 		(unit 1)
@@ -13080,7 +13134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 212.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13538,6 +13592,82 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb658fa-22b2-445c-a7b2-09b152e17004")
+		(property "Reference" "H2"
+			(at 148.59 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 148.59 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WizServoTester"
+				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
+					(reference "H2")
 					(unit 1)
 				)
 			)
