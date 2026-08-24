@@ -36,7 +36,24 @@ While doing so I also had to make a footprint for the AliExpress buck converter 
 
 After arraigning everything inside of a 100mm x 60mm pcb I routed everything. Making sure to use thick traces for the power traces. I also added the team logo at the front in the little free space.
 
+**Total time spent: 3h**
+
 **Here is my PCB:**
 <img width="955" height="604" alt="image" src="https://github.com/user-attachments/assets/ceb6977a-0cc7-4ab7-8cfa-e066113be61a" />
 
+# August 22: <PCB Fixes and Case>
 
+So today, I did a few things. Starting off, I fixed the ground planes. Before, I only had one ground plane, and the top copper plane was just a no net pad. Now, I changed both of them to ground pads and connected them with stitching vias spaced about every 15mm and I also added vias next to the doubling caps and large power gnd returns.  I also added some more logos and silkscreen stuff on the back. 
+
+**Here are pictures of the improved pcb:**
+<img width="918" height="563" alt="image" src="https://github.com/user-attachments/assets/c897b4c7-7026-4393-ba14-e75bbc762431" />
+
+<img width="1069" height="618" alt="image" src="https://github.com/user-attachments/assets/6bb20895-856b-4f2e-bb19-f0cac52575cd" />
+
+<img width="976" height="613" alt="image" src="https://github.com/user-attachments/assets/4e485dc0-dbe7-487e-b762-5e591fed63d7" />
+
+I also made a case for the servo tester on Onshape:
+<img width="812" height="697" alt="image" src="https://github.com/user-attachments/assets/883727a8-7583-47d5-b83d-4c60628c0843" />
+
+
+**Total time spent: 4h**
