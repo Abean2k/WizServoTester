@@ -30,4 +30,28 @@ This is optional, if you are recreating this project, you can choose to use my c
 ## Firmware:
 The ESP32 will run C++ with Arduino. The code is still under development. The idea is that the code can detect the voltage of the USDB to see where it's receiving power from, then it can control the servos based on the position of the rotary encoder. Lots of the code is similar to my rocketry airbrake project so V1 code development was quick. The online app that is hosted on the ESP will be added based on how the PCB performs and feedback I receive from my team about the tester. 
 
-## BOM:
+## Bill of Materials (BOM)
+
+| Part | Quantity | Retailer | Total Price |
+|---|---|---|---|
+| ESP32-C6-WROOM-1 | 1x5 | LCSC | $21.16 |
+| SMD Caps (10u, 100n, 1u, 22u) | 9 x 5 | Already have | $0.00 |
+| 470u 16v Capacitor | 1x5 | LCSC | $0.61 |
+| ESD9B3.3 Diode | 2x5 | LCSC | $0.53 |
+| SS34 Schottky Diode | 1x5 | LCSC | $0.71 |
+| SS54 Schottky Diode | 1x5 | LCSC | $0.45 |
+| USB-C Receptacle | 1x5 | LCSC | $0.62 |
+| XT30 Battery Connector | 1x5 | AliExpress | $2.97 |
+| (01x03) Male 90 Degree Header | 4x5 | AliExpress | $5.58 |
+| Resistors (10k, 5.1k, 4.7k) | 30 | Already have | $0.00 |
+| EC11 Rotary Encoder | 4x5 | AliExpress | $3.24 |
+| Push Button Switch | 2x5 | LCSC | $0.53 |
+| SPDT Power Select Switch ($1.84) | 1x5 | LCSC | $1.84 |
+| USBLC6-2SC6 (USB Protection) | 1x5 | LCSC | $0.48 |
+| AMS1117-3.3 (LDO) | 1x5 | LCSC | $0.49 |
+| Mini560 Buck Converter | 1x5 | AliExpress | $4.40 |
+| PCB (5x boards) | 1x5 | LCSC | $11.32 |
+
+**Taxes & Shipping: AliExpress ($0.96) + LCSC ($10.80)** 
+
+**Total Cost For 5 PCBS: $66.69**
