@@ -2303,184 +2303,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD9B3.3ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9B3.3ST5G"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Espressif:ESP32-C6-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4712,12 +4534,6 @@
 		(uuid "f422e313-8ed1-4fa3-ba2a-0b304d5f6f87")
 	)
 	(junction
-		(at 212.09 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0305451d-5bf0-4b6a-8242-ecf61ceb9fd2")
-	)
-	(junction
 		(at 147.32 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,16 +4558,28 @@
 		(uuid "187df22e-ea78-46ba-9d1f-e3ebe54269ed")
 	)
 	(junction
+		(at 76.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "210af2ef-1ff5-459c-bdaa-d97e638db834")
+	)
+	(junction
+		(at 85.09 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2beb7ad9-a173-4079-b284-ac3d3c0a2fa6")
+	)
+	(junction
 		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3091015e-a152-4122-bd67-6402abc787d3")
 	)
 	(junction
-		(at 76.2 115.57)
+		(at 212.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d61e20e-e77a-4150-b00d-386e8a1b9518")
+		(uuid "3d0e0b20-8b5f-4949-9c8d-442907323184")
 	)
 	(junction
 		(at 76.2 104.14)
@@ -4820,34 +4648,22 @@
 		(uuid "8ff0b31f-c8d8-475b-afa0-fb8843203cde")
 	)
 	(junction
-		(at 220.98 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e02d39e-c773-454e-9a17-b44714c61009")
-	)
-	(junction
 		(at 40.64 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c46cb4-3b1e-41fa-a3ba-220c7e237a86")
 	)
 	(junction
+		(at 85.09 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a922fc47-0977-46f2-b794-df4169a3b631")
+	)
+	(junction
 		(at 86.36 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3059313-e076-45f2-8c4f-2e324049a4e0")
-	)
-	(junction
-		(at 27.94 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb251a44-3b19-4e6c-8b7e-264262aabb8e")
-	)
-	(junction
-		(at 259.08 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0469adf-71b7-48e5-ba5c-513f8119d695")
 	)
 	(junction
 		(at 64.77 34.29)
@@ -4893,13 +4709,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 124.46) (xy 259.08 124.46)
+			(xy 256.54 124.46) (xy 254 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "087c044b-909e-4558-8440-6cdac8e4b33e")
+		(uuid "0a7edb8d-0007-4c43-963f-735ba6b6b9d0")
 	)
 	(wire
 		(pts
@@ -4973,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 97.79) (xy 30.48 97.79)
+			(xy 25.4 97.79) (xy 30.48 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5039,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 124.46) (xy 220.98 124.46)
+			(xy 212.09 124.46) (xy 218.44 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5273,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 124.46) (xy 266.7 124.46)
+			(xy 256.54 125.73) (xy 259.08 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 115.57) (xy 81.28 115.57)
+			(xy 76.2 115.57) (xy 85.09 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5433,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 81.28 120.65)
+			(xy 76.2 120.65) (xy 85.09 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5643,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4e19a1-715c-4d97-9add-bea23616934b")
+	)
+	(wire
+		(pts
 			(xy 33.02 163.83) (xy 33.02 161.29)
 		)
 		(stroke
@@ -5723,16 +5549,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 27.94 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb70274c-2da5-4259-b6df-96b0f251795c")
-	)
-	(wire
-		(pts
 			(xy 147.32 59.69) (xy 139.7 59.69)
 		)
 		(stroke
@@ -5763,6 +5579,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 115.57) (xy 90.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45aa84e-343d-46a9-acb6-df7edac34028")
+	)
+	(wire
+		(pts
 			(xy 45.7033 100.33) (xy 40.64 100.33)
 		)
 		(stroke
@@ -5790,6 +5616,16 @@
 			(type default)
 		)
 		(uuid "cb710083-6748-4bc6-8804-6a1c52f2b359")
+	)
+	(wire
+		(pts
+			(xy 256.54 125.73) (xy 256.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00250d4-3c8a-40a9-8e3e-dd2db67519f0")
 	)
 	(wire
 		(pts
@@ -5970,16 +5806,6 @@
 			(type default)
 		)
 		(uuid "f72d2a63-d4ba-493b-aa49-8e100a8139b6")
-	)
-	(wire
-		(pts
-			(xy 220.98 124.46) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa13c583-1042-4db4-a605-59fc0aa71319")
 	)
 	(wire
 		(pts
@@ -6603,7 +6429,7 @@
 	)
 	(global_label "BAT5v"
 		(shape input)
-		(at 81.28 115.57 0)
+		(at 90.17 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6613,7 +6439,7 @@
 		)
 		(uuid "73a13d65-f0c0-405a-8ff7-2e7fa9c3fffc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7685 115.57 0)
+			(at 98.6585 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6717,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 228.6 124.46 0)
+		(at 218.44 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6901,7 +6727,7 @@
 		)
 		(uuid "d13acf69-d02f-4a7a-8323-89682bf233b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0647 124.46 0)
+			(at 223.9047 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +6957,7 @@
 	)
 	(global_label "Boot"
 		(shape input)
-		(at 266.7 124.46 0)
+		(at 259.08 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7141,7 +6967,7 @@
 		)
 		(uuid "ebf05d6f-79e8-49d6-9805-3be30dd042d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.9789 124.46 0)
+			(at 266.3589 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,88 +7232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 259.08 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05754a7a-2582-46a8-931a-e04dc8f6e6ac")
-		(property "Reference" "D3"
-			(at 261.62 126.9999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD9B3.3"
-			(at 261.62 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 259.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 259.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 259.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b86c9e6d-d2d8-4172-9dee-bd5ebafc7aba")
-		)
-		(pin "2"
-			(uuid "fa1ccaf0-89aa-451a-bc00-503886eb994d")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 40.64 118.11 0)
 		(unit 1)
@@ -7641,84 +7385,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10eef671-4089-41c8-bc24-51a1844cab31")
-		(property "Reference" "#PWR038"
-			(at 259.08 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "895b7951-c914-4aca-803e-7e3a7b47b9a0")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9014,6 +8680,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 85.09 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37790962-87bf-4465-8375-1fbc23bf8d20")
+		(property "Reference" "C8"
+			(at 86.868 117.094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u 16v"
+			(at 86.868 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 85.09 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 85.09 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad019157-f5c5-40ee-b060-3aa83e77779a")
+		)
+		(pin "1"
+			(uuid "494ece59-8ada-4f24-a76f-f7849eb06150")
+		)
+		(instances
+			(project "WizServoTester"
+				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 76.2 0)
 		(unit 1)
@@ -10138,7 +9885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 120.65 0)
+		(at 88.9 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10149,7 +9896,7 @@
 		(fields_autoplaced yes)
 		(uuid "695df730-2b4c-4df0-ae65-fa67c522f2f4")
 		(property "Reference" "#PWR041"
-			(at 81.28 127 0)
+			(at 88.9 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +9907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 125.73 0)
+			(at 88.9 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10170,7 +9917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 120.65 0)
+			(at 88.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +9928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 120.65 0)
+			(at 88.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +9939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 120.65 0)
+			(at 88.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,88 +10112,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 220.98 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d7e1469-6bc0-41dd-9285-0b70ea364ad5")
-		(property "Reference" "D1"
-			(at 223.52 126.9999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD9B3.3"
-			(at 223.52 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 220.98 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 220.98 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 220.98 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cf3e6ac-70a3-40f6-92bb-d7e3245e2d98")
-		)
-		(pin "2"
-			(uuid "b7e72d13-14ad-404b-9c9a-1d6c2a36dd15")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11106,87 +10771,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 27.94 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ad4db7f-d6ab-4adb-9e16-4d0874ccd9dd")
-		(property "Reference" "C8"
-			(at 23.114 99.822 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u 16v"
-			(at 15.494 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "453721e8-b0f9-410b-abd3-d0acaa13f7f6")
-		)
-		(pin "1"
-			(uuid "383cd426-4369-4662-98a3-c0122cf742d1")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13668,84 +13252,6 @@
 			(project "WizServoTester"
 				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd289a7a-cc3e-4d8d-bec4-b858c8766d97")
-		(property "Reference" "#PWR09"
-			(at 220.98 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07c18ba4-d918-4df1-b6fd-628d32273019")
-		)
-		(instances
-			(project "WizServoTester"
-				(path "/b72cb0ae-64f7-4966-9496-0d8f43d0f389"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
