@@ -17,7 +17,7 @@ This thing can be powered in two ways - USB & Battery. When under battery power 
 I made a 2 layered PCB on Kicad for the servo tester. The pcb is around 100mm by 60mm. I have included some instructions on how to use the power switch and battery connector as well as some PCB Art (my first time trying that out <3). 
 
 ### Schematic
-<img width="1079" height="747" alt="Screenshot 2026-08-22 122518" src="https://github.com/user-attachments/assets/3d1df586-f78c-408b-9368-56f4f398a0ce" />
+<img width="1122" height="775" alt="image" src="https://github.com/user-attachments/assets/8c7b1c39-c9f9-4a12-a7f0-953fd10389e2" />
 
 ### PCB Layout
 <img width="918" height="563" alt="Screenshot 2026-08-23 231227" src="https://github.com/user-attachments/assets/4b2c7a3c-abba-4239-9137-de7861eede82" />
