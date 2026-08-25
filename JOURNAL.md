@@ -3,6 +3,7 @@ Title: WizServotester
 Github: (https://github.com/Abean2k/WizServoTester)
 Description: 4-channel servo tester for FTC
 Created_at: "2026-08-19"
+Total Time Spent: ~16 Hours
 ---
 
 # August 21 & August 20: <Schematic Finished>
@@ -41,7 +42,7 @@ After arraigning everything inside of a 100mm x 60mm pcb I routed everything. Ma
 **Here is my PCB:**
 <img width="955" height="604" alt="image" src="https://github.com/user-attachments/assets/ceb6977a-0cc7-4ab7-8cfa-e066113be61a" />
 
-# August 22: <PCB Fixes and Case>
+# August 23: <PCB Fixes and Case>
 
 So today, I did a few things. Starting off, I fixed the ground planes. Before, I only had one ground plane, and the top copper plane was just a no net pad. Now, I changed both of them to ground pads and connected them with stitching vias spaced about every 15mm and I also added vias next to the doubling caps and large power gnd returns.  I also added some more logos and silkscreen stuff on the back. 
 
@@ -57,3 +58,15 @@ I also made a case for the servo tester on Onshape:
 
 
 **Total time spent: 4h**
+
+# August 24: <Code and Documentation>
+Today I worked on getting the project finished. I worked on the code for the servo tester. For now is to detect the voltage of the USDB to see where it's receiving power from, then it can control the servos based on the position of the rotary encoder. Many of the functions and stuff are similar to my rocketry airbrake project so the version one development of the code was quick. Once I get the servo tester made, I plan on adding more features to the code :)
+
+I also made fixed the readme and BOM. Here are pictures of that:
+<img width="596" height="821" alt="image" src="https://github.com/user-attachments/assets/cec92196-04b4-49c0-9405-56491a6f859a" />
+
+<img width="892" height="943" alt="image" src="https://github.com/user-attachments/assets/d35e5e86-06c6-4c1d-9363-b97ddf4cc76d" />
+
+**Total time spent: 3h**
+
+
