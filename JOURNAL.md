@@ -3,7 +3,7 @@ Title: WizServotester
 Github: (https://github.com/Abean2k/WizServoTester)
 Description: 4-channel servo tester for FTC
 Created_at: "2026-08-19"
-Total Time Spent: ~16 Hours
+Total Time Spent: ~16.5 Hours
 ---
 
 # August 21 & August 20: <Schematic Finished>
@@ -69,4 +69,12 @@ I also made fixed the readme and BOM. Here are pictures of that:
 
 **Total time spent: 3h**
 
+# August 26: <Last PCB Fixes>
+I got some suggestions to change my pcb to remove the unneeded esd diodes, and also move the large 470uF capacitor from the main 5v line to only the battery power line. 
 
+I learned that the usb cannot have more than 10uF capacitance on it's main power rail, as that will draw way to much current from something like a computer port at startup. 
+
+Anyway, here is the updated schematic:
+<img width="948" height="661" alt="Screenshot 2026-08-25 163040" src="https://github.com/user-attachments/assets/f156e4f9-8817-423b-9448-93d556ccaa91" />
+
+**Total time spent: 0.5h**
